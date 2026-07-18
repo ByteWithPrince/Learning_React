@@ -1,0 +1,324 @@
+.Card {
+  border: 1px solid rgb(231, 225, 225);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.Card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.Card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: rgb(63, 63, 64);
+}
+
+.Card .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(63, 63, 64);
+}
+
+/* External styling for the button component */
+
+/* .button {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 27%);
+}
+
+.student p {
+  margin: 0;
+}
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: hsla(324, 100%, 50%, 0.718);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.login-prompt {
+  font-size: 2.5em;
+  background-color: hsla(247, 100%, 50%, 0.718);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 27%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.list-item {
+  font-size: 2em;
+  color: hsl(0, 0%, 27%);
+  margin-bottom: 5px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+.list-item:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter-display {
+  font-size: 2.5em;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsla(200, 100%, 50%, 0.718);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: hsla(200, 100%, 32%, 0.789);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-display {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  border: 5px solid hsl(0, 0%, 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.color-picker-container label {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.to-do-list h1 {
+  font-size: 4rem;
+}
+
+.to-do-list button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: hsl(125, 47%, 54%);
+}
+.add-button:hover {
+  background-color: hsl(125, 47%, 40%);
+}
+
+.delete-button {
+  background-color: hsl(10, 90%, 50%);
+}
+
+.delete-button:hover {
+  background-color: hsl(10, 90%, 40%);
+}
+
+.move-button {
+  background-color: hsl(207, 90%, 64%);
+}
+
+.move-button:hover {
+  background-color: hsl(207, 90%, 54%);
+}
+
+.to-do-list input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+.to-do-list ol {
+  padding: 0;
+}
+
+.to-do-list li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%, 0.5);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex:1;
+
+}
+.delete-button, .move-button{
+  padding:8px 12px;
+  font-size:1.4rem;
+  margin-left:10px;
+}
+
+.clock-container{
+backdrop-filter:blur(5px);
+width:100vw;
+padding: 10px 0;
+}
+
+.clock{
+  color:rgb(246, 0, 0);
+  font-size:6rem;
+  font-weight:bold;
+  font-family:monospace;
+  text-align:center;
+  text-shadow:3px 3px 5px rgba(0, 0, 0, 0.623)
+
+
+
+}
+
+.box{
+  border:3px solid;
+  padding:20px;
+}
+
+.stopwatch{
+  display:flex;
+  flex-direction:column;
+  background-color:hsla(0, 2%, 52%, 0.445);
+  align-items:center;
+  border:5px solid;
+  border-radius:50px;
+  padding:30px;
+  margin-top:50px;
+}
+
+.display{
+  font-size:5rem;
+  font-family:monospace;
+  font-weight:bold;
+  color:rgba(0, 0, 0, 0.703);
+  text-shadow:3px 2px 2px hsla(0, 0%, 50%, 0.756);
+  margin-bottom:30px;
+}
+
+.controls button{
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:10px 20px;
+  margin:5px;
+  min-width:125px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  color:white;
+  transition:background-color 0.5s ease;
+}
+
+.start-button{
+  background-color:hsla(125, 47%, 54%, 0.918);
+}
+.start-button:hover{
+  background-color:hsla(125, 47%, 40%, 0.918);
+}
+.stop-button{
+  background-color:hsla(0, 47%, 54%, 0.918);
+}
+.stop-button:hover{
+  background-color:hsla(0, 47%, 40%, 0.918);
+}
+.reset-button{
+  background-color:hsla(218, 47%, 54%, 0.918);
+}
+.reset-button:hover{
+  background-color:hsla(218, 47%, 40%, 0.918);
+}
